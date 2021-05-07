@@ -10,6 +10,7 @@
 package webview
 
 /*
+#cgo LDFLAGS: -Wl,--allow-multiple-definition
 #cgo linux openbsd freebsd CFLAGS: -DWEBVIEW_GTK=1 -Wno-deprecated-declarations
 #cgo linux openbsd freebsd pkg-config: gtk+-3.0 webkit2gtk-4.0
 
